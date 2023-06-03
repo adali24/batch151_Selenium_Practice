@@ -35,7 +35,7 @@ public class C01 {
         WebElement sonuc =  driver.findElement(By.xpath("// * [@id='answer']"));
         System.out.println("sonuc = "+ sonuc.getText());
 
-        
+
         // sayfayi kapatiniz
         driver.close();
     }
